@@ -4,7 +4,6 @@ local colors = require('lua/rose-pine').colors()
 local window_frame = require('lua/rose-pine').window_frame()
 
 return {
-  window_decorations = "RESIZE",
   color_scheme ="rose-pine",
   font = wezterm.font("JetBrainsMono Nerd Font"),
   use_cap_height_to_scale_fallback_fonts = true,
